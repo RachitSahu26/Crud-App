@@ -30,18 +30,9 @@ CRUD is an acronym for Create, Read, Update, Delete - the four essential operati
 
 Please refer to the [installation section](#installation) in this README for detailed instructions on how to set up and run the CRUD app on your local machine.
 
-## Usage
-
-The [usage section](#usage) provides a comprehensive guide on how to interact with the CRUD app. You'll find step-by-step instructions on creating, viewing, updating, and deleting data using the app's intuitive interface.
-
 ## Technologies Used
 
-The CRUD app is built using cutting-edge web development technologies, including:
-
-- Frontend: [Replace with your chosen frontend library (React, Angular, Vue.js, etc.)]
-- Backend: [Specify your backend technology, e.g., Node.js, Django, Ruby on Rails]
-- Database: [Indicate your preferred database system, e.g., PostgreSQL, MongoDB, MySQL]
-- [Other technologies and libraries used in the project]
+- Frontend: [Replace with your chosen frontend library (React, Tailwind CSS, Fire Base, etc.)]
 
 ## Contribution
 
@@ -55,8 +46,7 @@ This project is open-source and available under the [MIT License](LICENSE). Feel
 
 If you have any questions, suggestions, or feedback, please reach out to us:
 
-- Email: [your.email@example.com](mailto:your.email@example.com)
-- Twitter: [@yourtwitterhandle](https://twitter.com/yourtwitterhandle)
+- Email: curiousrachits.26@gmail.com
 
 Thank you for exploring the CRUD app! Happy data management!
   
