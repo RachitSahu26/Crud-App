@@ -1,0 +1,94 @@
+/* <div className='flex-col'>
+{
+contact.map((rachitdata) => (
+
+
+  ))
+}
+
+</div> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ............................model.............. */
+/* 
+
+
+
+ */
+
+
+
+
+
+
+
+/* 
+ import React from 'react'
+
+
+ import { MdOutlineClose } from "react-icons/md"
+ import FormArea from './FormArea'
+ 
+ 
+ 
+ function Model({isopen,onclose}) {
+ 
+     return (
+            )
+ }
+ 
+ export default Model */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* ...........................form details................. */
+/* 
+
+
+ import React from 'react'
+import { Field, Form, Formik } from "formik";
+
+function FormArea({ isUpdate, rachitdata }) {
+
+  return (
+    <div>
+     
+        <Form>
+          <
+        </Form>
+      </Formik>
+    </div>
+  )
+}
+
+export default FormArea; */
