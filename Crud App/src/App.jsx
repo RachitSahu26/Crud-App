@@ -14,6 +14,7 @@ import Navbar from './Componerts/Navbar'
 import ContactCard from './Componerts/ContactCard';
 import Model from './Componerts/Model';
 import AddAndUpdate from './Componerts/AddAndUpdate';
+import NotFound from './Componerts/NotFound';
 
 
 
@@ -78,7 +79,7 @@ function App() {
 
   // ...........fitered contact.concat.........
   const filteredContact = (e) => {
-  const  value = e.target.value;
+    const value = e.target.value;
 
 
 
@@ -101,11 +102,11 @@ function App() {
 
     })
 
-    }
+  }
 
-    
 
-  
+
+
 
 
 
@@ -122,7 +123,7 @@ function App() {
 
 
   return (
-    <div className="max-w-[370px] mx-auto">
+    <div className="max-w-[380px] mx-auto m-5 min-h-[100px] p-5 border rounded" >
 
       <Navbar />
       <div className='flex '>
@@ -154,13 +155,15 @@ function App() {
       {/* ............contact-information.......... */}
 
       <div className='mt-3'>
-        {
-          // fetched data from database used here 
-          contact.map((contact) => (
+
+        {contact.length <= 0 ? (
+          <NotFound />) 
+          : (contact.map((contact) => (
 
             <ContactCard key={contact.id} onOpen={onOpen} contact={contact} />
 
-          ))}
+          ))
+        )}
 
       </div>
 
